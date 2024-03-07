@@ -5,6 +5,7 @@ import { Button, Dropdown, Space } from "antd";
 
 import T01 from "../../../assets/T01.jpg";
 import T02 from "../../../assets/T02.jpg";
+import Logo from "../../../assets/Logo và banner/Cute Cloud Love and Toys Logo (4).png"
 const items = [
   { key: "1", label: <Link to="delivery-policy">CHÍNH SÁCH GIAO HÀNG</Link> },
   { key: "2", label: <Link to="return-policy">CHÍNH SÁCH ĐỔI TRẢ</Link> },
@@ -16,7 +17,9 @@ const Header = () => {
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container js_bet">
           <NavLink className="navbar-brand" to="">
-            <div className="logo">CLOUD</div>
+            <div className="logo">
+              <img src={Logo} />
+            </div>
           </NavLink>
           <ul className="navbar-nav">
             <li className="nav-item">
