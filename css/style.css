@@ -136,6 +136,7 @@ body {
 }
 .custom_nav-container .navbar-nav .nav-item:hover .dropdown {
   display: block;
+  z-index: 999;
 }
 .custom_nav-container .navbar-nav .nav-item .underline {
   position: absolute;
@@ -146,17 +147,18 @@ body {
 }
 .custom_nav-container .navbar-nav .nav-item .dropdown {
   display: none;
-  padding: 10px 30px;
+  padding: 10px 20px;
   position: absolute;
   background-color: #f7f8f6;
-  min-width: 760px;
+  min-width: 900px;
+  left: -300px;
   z-index: 1;
   transition: 1s;
 }
 .custom_nav-container .navbar-nav .nav-item .dropdown .category {
   line-height: 2;
-  width: 32%;
-  padding: 0px 20px;
+  width: 39%;
+  padding: 0px 10px;
 }
 .custom_nav-container .navbar-nav .nav-item .dropdown .category .sub-category {
   margin: 10px 0px;
@@ -169,12 +171,20 @@ body {
 .custom_nav-container .navbar-nav .nav-item .dropdown .category .sub-category_title {
   font-size: 15px;
 }
+.custom_nav-container .navbar-nav .nav-item .dropdown .category-img {
+  width: 20%;
+  padding: 0px 10px;
+}
+.custom_nav-container .navbar-nav .nav-item .dropdown .category-img .intro {
+  font-size: 14px;
+}
 .custom_nav-container .navbar-nav .nav-item .dropdown .divider {
   background-color: #111111;
   width: 0.5px;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   color: #0c0c0c;
+  font-size: small;
 }
 
 .navbar-brand {

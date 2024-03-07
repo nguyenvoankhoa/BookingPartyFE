@@ -144,6 +144,7 @@ body {
         }
         .dropdown {
           display: block;
+          z-index: 999;
         }
       }
       .underline {
@@ -155,16 +156,17 @@ body {
       }
       .dropdown {
         display: none;
-        padding: 10px 30px;
+        padding: 10px 20px;
         position: absolute;
         background-color: $background-color_6;
-        min-width: 760px;
+        min-width: 900px;
+        left: -300px;
         z-index: 1;
         transition: 1s;
         .category {
           line-height: 2;
-          width: 32%;
-          padding: 0px 20px;
+          width: 39%;
+          padding: 0px 10px;
           .sub-category {
             margin: 10px 0px;
             a {
@@ -177,6 +179,13 @@ body {
             font-size: 15px;
           }
         }
+        .category-img {
+          width: 20%;
+          padding: 0px 10px;
+          .intro {
+            font-size: 14px;
+          }
+        }
         .divider {
           background-color: $background-color_8;
           width: 0.5px;
@@ -184,6 +193,7 @@ body {
       }
       .nav-link {
         color: $color_4;
+        font-size: small;
       }
     }
   }
