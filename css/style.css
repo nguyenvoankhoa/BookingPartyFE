@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gloria Hallelujah", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .ant-menu-item {
   padding-left: 3px !important;
 }
-.ant-menu-item :hover {
+.ant-menu-item:hover {
   color: #de3163;
 }
 
@@ -18,12 +18,8 @@
 }
 
 .divide {
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-}
-
-.poppins {
-  font-family: "Roboto", sans-serif;
+  border-top: 1px solid #111111;
+  border-bottom: 1px solid #111111;
 }
 
 .fw-500 {
@@ -46,10 +42,6 @@
   align-items: center;
 }
 
-.bg_black {
-  background-color: #000000;
-}
-
 .js_bet {
   justify-content: space-between;
 }
@@ -67,11 +59,7 @@
   background-color: rgb(0, 123, 194) !important;
 }
 
-.col-6 {
-  padding: 0;
-  margin: 0;
-}
-
+.col-6,
 .col-4 {
   padding: 0;
   margin: 0;
@@ -81,30 +69,6 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
-}
-
-.layout_padding {
-  padding: 90px 0;
-}
-
-.layout_padding2 {
-  padding: 45px 0;
-}
-
-.layout_padding2-top {
-  padding-top: 45px;
-}
-
-.layout_padding2-bottom {
-  padding-bottom: 45px;
-}
-
-.layout_padding-top {
-  padding-top: 90px;
-}
-
-.layout_padding-bottom {
-  padding-bottom: 90px;
 }
 
 .heading_container {
@@ -119,18 +83,10 @@ body {
   font-size: 4.5rem;
 }
 
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
+.btn {
+  outline: none !important;
+  box-shadow: none;
 }
-
-a:hover,
-a:focus {
-  color: initial;
-}
-
-.btn,
 .btn:focus {
   outline: none !important;
   box-shadow: none;
@@ -141,13 +97,11 @@ a:focus {
   margin: auto;
 }
 
-/*offer banner section*/
 .offer_banner {
   background-color: #70339c;
   color: #ffffff;
 }
 
-/*header section*/
 .hero_area {
   height: calc(100vh - 45px);
   display: flex;
@@ -216,20 +170,19 @@ a:focus {
   font-size: 15px;
 }
 .custom_nav-container .navbar-nav .nav-item .dropdown .divider {
-  background-color: #000;
-  width: 1px;
+  background-color: #111111;
+  width: 0.5px;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  color: #000000;
+  color: #0c0c0c;
 }
 
 .navbar-brand {
   padding: 0px 30px;
 }
 .navbar-brand .logo {
-  font-family: "Dancing Script", sans-serif;
   font-size: 50px;
-  color: #000;
+  color: #0c0c0c;
 }
 
 .quote_btn-container {
@@ -237,7 +190,7 @@ a:focus {
   align-items: center;
 }
 .quote_btn-container a {
-  color: #000000;
+  color: #0c0c0c;
   margin: 0 20px;
 }
 
@@ -265,7 +218,6 @@ a:focus {
   border: 1px solid #000;
 }
 
-/*end header section*/
 .banner {
   width: 100%;
   height: 500px;
@@ -281,7 +233,6 @@ a:focus {
   background-color: #ffffff;
   text-transform: uppercase;
 }
-
 .dot-line::before {
   display: table;
   content: "";
@@ -305,6 +256,7 @@ a:focus {
 .card_img {
   position: relative;
 }
+
 .card_img_wrapper {
   transition: box-shadow 0.5s, transform 0.5s;
   transform: scale(0.95);
@@ -326,7 +278,7 @@ a:focus {
 }
 .card_img_wrapper .icon {
   position: absolute;
-  color: black;
+  color: #0c0c0c;
   right: 0;
   display: flex;
   bottom: 10px;
@@ -501,21 +453,15 @@ a:focus {
   color: #ffffff;
 }
 
-/* footer section*/
 .footer_section {
   display: flex;
   justify-content: center;
   position: relative;
   background-color: #ffffff;
 }
-
 .footer_section p {
-  color: #111111;
+  color: #0c0c0c;
   margin: 0 auto;
   text-align: center;
   padding: 25px 0;
-}
-
-.footer_section a {
-  color: inherit;
 }/*# sourceMappingURL=style.css.map */

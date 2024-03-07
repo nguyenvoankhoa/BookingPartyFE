@@ -2,7 +2,7 @@ import React from "react";
 
 const Information = () => {
   return (
-    <section className="info_section layout_padding2">
+    <section className="info_section p-4">
       <div className="container">
         <div className="row info_main_row">
           <div className="col-md-6 col-lg-3">
